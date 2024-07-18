@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cat & Dog</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body class="body" onkeyup="keyCheck(event);">
+
+        <div class="background" id="background">
+            <div class="score" id="score">0</div>
+            <img src="cat/Run (1).png" class="player" id="player"/>
+            
+            <a href="home.html"><ion-icon name="home-outline"></ion-icon></a>
+            
+        </div>
+
+        <div class="gameOver" id="gameOver">
+            
+            <a href="home.html"><ion-icon name="home-outline"></ion-icon></a>
+           
+
+            <div class="over">Game Over
+                <div id="endScore">0</div>
+                <button class="b1" onclick="re();">Try Again</button>
+            </div> 
+
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

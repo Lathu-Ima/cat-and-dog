@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+.hb{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/hbackground.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+  
+}    
+.hbody{
+    margin: 0px;
+}
+.box {
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  
+}
+.box p{
+    font-size: 60px;
+    color: #000;
+    font-weight: 600;
+}
+/*Start button*/
+.btn{
+   
+    color: white;
+    background-color: rgb(1, 229, 32);
+    width: 600px;
+    height: 80px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 34px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #ffffff;
+    color: rgb(0, 248, 33);
+    text-decoration: none;
+}
+
+img {
+    height: 200px;
+    margin-top: 400px;
+   
+}
+
+.cat{
+    margin-left: 520px;
+}
+ion-icon{
+    position: absolute;
+    font-size: 80px;
+    margin-top: 35px;
+    margin-left: 80vw;
+    color: #000;
+}
+/*Help Page*/
+.hb2{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/intro.png");
+    background-size: cover;
+    overflow-x: hidden;
+    position: absolute;
+    background-position-y: -70px;
+    background-position-x: -10px;
+}  
+/*Run Page*/
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+.body{
+    margin: 0px;
+}
+
+.player{
+    position: absolute;
+    height: 200px;
+    margin-top: 420px;
+}
+
+.score{
+    position: absolute;
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-left: 30px;
+    visibility: hidden;
+}
+.block{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url("dog2.gif");
+    background-size: cover;
+    margin-top: 520px;
+}
+.gameOver{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/background.jpg");
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        visibility: hidden;
+            
+}
+.over{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        font-size: 90px;
+        font-weight: bold;
+            background-color: #faf67f;
+            color: rgb(91, 37, 37);    
+            border-radius: 10px; 
+            padding: 12px 34px;
+            
+}
+
+.b1{
+    width: 400px;
+    height: 80px;
+    background-color: rgb(0, 138, 41);
+    color: #ffffff;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.b1:hover{
+    background: #ffffff;
+    color: rgb(0, 138, 41);
+    text-decoration: none;
+}
+
